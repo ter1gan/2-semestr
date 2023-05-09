@@ -2,9 +2,12 @@ import java.math.BigInteger;
 
 public class Pr32 {
     public static void main(String[] args) {
-        game(99);
+        
+        Scanner sc = new Scanner(System.in);
+        long num = sc.nextLong();
+        game(num);
     }
-    public static void game(int n) {
+    public static void game(long n) {
         int Tanya = 0;
         while (n != 1) {
             if (n % 2 == 0) {
